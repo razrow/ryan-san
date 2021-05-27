@@ -37,8 +37,9 @@
 
         <ImageButton
             android:id="@+id/ibSnapchat"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
             android:background="@color/colorWhite"
             android:scaleType="centerCrop"
             android:src="@drawable/snapchatlogo" />
@@ -46,8 +47,11 @@
         <Button
             android:id="@+id/btnSnapchat"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="@string/snapchatMessages" />
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/snapchatbutton"
+            android:text="@string/snapchatMessages"
+            android:textColor="@color/colorBlack" />
 
     </LinearLayout>
 
@@ -62,8 +66,9 @@
 
         <ImageButton
             android:id="@+id/ibInstagram"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
             android:background="@color/colorWhite"
             android:scaleType="centerCrop"
             android:src="@drawable/instagramlogo" />
@@ -71,8 +76,11 @@
         <Button
             android:id="@+id/btnInstagram"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="@string/instagramMessages" />
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/instagrambutton"
+            android:text="@string/instagramMessages"
+            android:textColor="@color/colorWhite" />
 
     </LinearLayout>
 
@@ -87,8 +95,9 @@
 
         <ImageButton
             android:id="@+id/ibTextMessage"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
             android:background="@color/colorWhite"
             android:scaleType="centerCrop"
             android:src="@drawable/textmessage" />
@@ -96,8 +105,11 @@
         <Button
             android:id="@+id/btnTextMessages"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="@string/textMessages" />
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/textmessagesbutton"
+            android:text="@string/textMessages"
+            android:textColor="@color/colorWhite" />
 
     </LinearLayout>
 
@@ -112,8 +124,9 @@
 
         <ImageButton
             android:id="@+id/ibMissedCalls"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
             android:background="@color/colorWhite"
             android:scaleType="centerCrop"
             android:src="@drawable/missedcall" />
@@ -121,8 +134,11 @@
         <Button
             android:id="@+id/btnMissedCalls"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="@string/missedCalls" />
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/missedcallsbutton"
+            android:text="@string/missedCalls"
+            android:textColor="@color/colorWhite" />
 
     </LinearLayout>
 
