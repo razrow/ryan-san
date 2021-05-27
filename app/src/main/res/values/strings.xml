@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Ryan-san</string>
+    <string name="titleQuestion">Will you become the next Ryan-sama?</string>
+    <string name="promptQuestion">You wake up from a good rest. What is the first thing that you do?</string>
+    <string name="snapchatMessages">Check Snapchat Messages</string>
+    <string name="instagramMessages">Check your instagram dms</string>
+    <string name="missedCalls">Check your missed calls</string>
+    <string name="textMessages">check for any text messages</string>
 </resources>

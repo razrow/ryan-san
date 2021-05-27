@@ -1,9 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/tvTitleQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/titleQuestion"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvPromptQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitleQuestion"
+        android:layout_margin="5dp"
+        android:text="@string/promptQuestion"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/firstContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPromptQuestion"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibSnapchat"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorWhite"
+            android:scaleType="centerCrop"
+            android:src="@drawable/snapchatlogo" />
+
+        <Button
+            android:id="@+id/btnSnapchat"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/snapchatMessages" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstContainer"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibInstagram"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorWhite"
+            android:scaleType="centerCrop"
+            android:src="@drawable/instagramlogo" />
+
+        <Button
+            android:id="@+id/btnInstagram"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/instagramMessages" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondContainer"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibTextMessage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorWhite"
+            android:scaleType="centerCrop"
+            android:src="@drawable/textmessage" />
+
+        <Button
+            android:id="@+id/btnTextMessages"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/textMessages" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fourthContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thirdContainer"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibMissedCalls"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorWhite"
+            android:scaleType="centerCrop"
+            android:src="@drawable/missedcall" />
+
+        <Button
+            android:id="@+id/btnMissedCalls"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/missedCalls" />
+
+    </LinearLayout>
+
+</RelativeLayout>
