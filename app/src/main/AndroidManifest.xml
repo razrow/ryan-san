@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".textmessages.TextMessagesActivity"></activity>
+        <activity android:name=".instagram.cadence.CadenceActivity"></activity>
+        <activity android:name=".instagram.kiko.KikoActivity" />
+        <activity android:name=".instagram.yolanda.YolandaActivity" />
+        <activity android:name=".textmessages.TextMessagesActivity" />
         <activity android:name=".missedcalls.MissedCallsActivity" />
         <activity android:name=".instagram.InstagramActivity" />
         <activity android:name=".snapchat.SnapchatActivity" />

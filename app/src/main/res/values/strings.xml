@@ -7,4 +7,5 @@
     <string name="missedCalls">Check your missed calls</string>
     <string name="textMessages">check for any text messages</string>
     <string name="instagramStartingPrompt">It goes down in the DM, right? You decide to open instagram and you see 3 messages pending. One from Yolanda, one from Cadence, and one from Kiko. Which message will you open?</string>
+    <string name="openDM">Open Her DM</string>
 </resources>
